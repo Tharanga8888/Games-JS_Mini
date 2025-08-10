@@ -1,0 +1,38 @@
+#dice-game-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button {
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background: hsl(215, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: hsl(215, 100%, 60%);;
+}
+button:active {
+    background: hsl(215, 100%, 50%);;
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
+
+
